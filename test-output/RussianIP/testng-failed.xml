@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RussianIP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RussianIP(failed)">
+    <classes>
+      <class name="com.altimetrik.RussianIP.mainTestClass.CreateEmployee">
+        <methods>
+          <include name="postEmployee"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="setupBaseUrl"/>
+          <include name="startReport"/>
+          <include name="testLogger"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.altimetrik.RussianIP.mainTestClass.CreateEmployee -->
+    </classes>
+  </test> <!-- RussianIP(failed) -->
+</suite> <!-- Failed suite [RussianIP] -->
